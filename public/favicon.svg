@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="KlikBekal">
+  <rect width="96" height="96" rx="24" fill="#17212B"/>
+  <path d="M19.5 34.5C19.5 25.9 26.4 19 35 19h25.8c8.6 0 15.5 6.9 15.5 15.5v25.8c0 8.6-6.9 15.5-15.5 15.5H35c-8.6 0-15.5-6.9-15.5-15.5V34.5Z" fill="#fff" opacity=".1"/>
+  <path d="M24 27.8c0-4.6 3.7-8.3 8.3-8.3h34.2c4.6 0 8.3 3.7 8.3 8.3V32H24v-4.2Z" fill="#168AF2"/>
+  <path d="M24 32h50.8v33.2c0 6.2-5 11.3-11.3 11.3H35.3C29 76.5 24 71.5 24 65.2V32Z" fill="#fff"/>
+  <path d="M34.5 63.8v-33h10.8v12.1l12.9-12.1h13.7L55.4 46.2l18.1 17.6H59.1L45.3 50.2v13.6H34.5Z" fill="#17212B"/>
+  <path d="M67.7 18 62.6 33.2l13.7-2.9-18 33.3 4.4-18.3-11.1 2.7L67.7 18Z" fill="#FF9F1C"/>
+  <path d="M30.8 26.7H56" stroke="#fff" stroke-opacity=".78" stroke-width="4.5" stroke-linecap="round"/>
+</svg>
