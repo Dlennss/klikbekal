@@ -3,7 +3,7 @@ import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://klikbekal.local"),
+  metadataBase: new URL("https://klikbekal.com"),
   title: {
     default: "KlikBekal | Pulsa & Pembayaran Digital",
     template: "%s | KlikBekal",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "KlikBekal",
     description: "Website isi pulsa, paket data, e-wallet, token listrik, game, dan pembayaran digital dalam satu tempat.",
-    url: "https://klikbekal.local",
+    url: "https://klikbekal.com",
     siteName: "KlikBekal",
     type: "website",
     images: [

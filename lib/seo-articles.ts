@@ -9,9 +9,9 @@ function normalizeSiteUrl(raw?: string) {
 export const SITE_URL =
   normalizeSiteUrl(process.env.NEXT_PUBLIC_SITE_URL) ??
   normalizeSiteUrl(process.env.NEXTAUTH_URL) ??
-  "https://klikbekal.local";
+  "https://klikbekal.com";
 
-export const CANONICAL_SITE_URL = "https://klikbekal.local";
+export const CANONICAL_SITE_URL = "https://klikbekal.com";
 export const DEFAULT_OG_IMAGE_URL = `${CANONICAL_SITE_URL}/klikbekal-assets/hero-topup-3d.png`;
 
 export type ArticleSection = {

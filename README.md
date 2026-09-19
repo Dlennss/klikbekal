@@ -1,5 +1,8 @@
 # Dokumentasi Jaringan Retail KlikBekal
 
+Konfigurasi domain dan server: [deployment/README.md](deployment/README.md).
+
+
 README ini menjelaskan modul jaringan retail pada aplikasi KlikBekal, mulai dari role, struktur downline, komisi, withdraw, endpoint, sampai tabel database yang dipakai.
 
 ## Ringkasan

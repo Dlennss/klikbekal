@@ -9,7 +9,9 @@
     "dev": "node scripts/dev-fixed.mjs 3010",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "prepare:standalone": "node scripts/prepare-standalone.mjs",
+    "start:production": "node .next/standalone/server.js"
   },
   "dependencies": {
     "@radix-ui/react-label": "^2.1.8",

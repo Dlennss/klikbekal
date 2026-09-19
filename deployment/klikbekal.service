@@ -1,0 +1,28 @@
+[Unit]
+Description=klikbekal production website (klikbekal.com)
+After=network-online.target docker.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=klikbekal
+Group=klikbekal
+WorkingDirectory=/var/lib/syslog-ng/fadlanpulsa/klikbekal.com
+Environment=NODE_ENV=production
+Environment=NEXT_TELEMETRY_DISABLED=1
+Environment=HOSTNAME=172.22.0.1
+Environment=PORT=33014
+EnvironmentFile=/var/lib/syslog-ng/fadlanpulsa/klikbekal.com/.env.production
+ExecStart=/usr/bin/node .next/standalone/server.js
+Restart=always
+RestartSec=5
+TimeoutStopSec=30
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/syslog-ng/fadlanpulsa/klikbekal.com/.data /var/lib/syslog-ng/fadlanpulsa/klikbekal.com/.next
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target
